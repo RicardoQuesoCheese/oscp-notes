@@ -7,7 +7,7 @@
 ## Quick Links
 
 !!! info ""
-    [📜 Writeups](https://krovs.github.io/oscp-writeups) 🔸 [Hacktricks](https://book.hacktricks.xyz/) 🔸 [PayloadsAllTheThings](https://swisskyrepo.github.io/PayloadsAllTheThings/) 🔸 [GTFOBins](https://gtfobins.github.io/) 🔸 [RevShells](https://revshells.com)
+    [Hacktricks](https://book.hacktricks.xyz/) 🔸 [PayloadsAllTheThings](https://swisskyrepo.github.io/PayloadsAllTheThings/) 🔸 [GTFOBins](https://gtfobins.github.io/) 🔸 [RevShells](https://revshells.com)
 
 ## Connecting to RDP
 

@@ -2,8 +2,6 @@
 
 **🍕 Web version**: [https://krovs.github.io/oscp-notes](https://krovs.github.io/oscp-notes/)
 
-**🤖 Writeups**: [https://krovs.github.io/oscp-writeups](https://krovs.github.io/oscp-writeups/)
-
 <div align="center">
     <img src=docs/assets/banner.png>
 </div>
