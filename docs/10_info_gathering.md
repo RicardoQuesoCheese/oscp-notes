@@ -209,7 +209,7 @@ sslscan <host>:<port>
 
 # brute force directories
 gobuster dir -u <url> -w <wordlist> -t 60 -x pdf,txt,php,config,git
-wfuzz -w <wordlist> <URL>/FUZZ
+wfuzz -w <wordlist> -u <URL>/FUZZ
 feroxbuster -u <url> -w <wordlist> -t 60 -x pdf -x txt -x php -x config -x git
 
 # brute force login page with hydra and patator
