@@ -8,7 +8,7 @@
 
 ## 🦩 Notes
 
-- [🦩 Home](docs/index.md)
+- [🦩 Home](docs/10_info_gathering.md)
 - [🔍 Information Gathering](docs/10_information_gathering.md)
 - [🕷️ Web Application Attacks](docs/11_web_attacks.md)
 - [🎣 Client-Side Attacks](docs/12_client-side_attacks.md)
