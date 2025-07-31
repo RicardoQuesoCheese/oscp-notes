@@ -93,6 +93,15 @@ sudo proxychains <command>
 
 # create a client and add extra port forwarding (useful to access a web page from a browser)
 ./chisel client <local_host>:8080 R:socks R:4545:localhost:80
+
+The format is:
+
+R:<REMOTE_PORT>:<DEST_IP>:<DEST_PORT>
+REMOTE_PORT (9001) → The port opened on Kali (because the Chisel server is running there with --reverse)
+
+DEST_IP:DEST_PORT (192.168.45.236:9001) → Where the traffic is forwarded from MS01 to Kali:9001
+
+
 ```
 
 ### SSH Dynamic Port Forwarding
