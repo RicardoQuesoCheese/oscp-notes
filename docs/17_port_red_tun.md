@@ -51,6 +51,11 @@ chisel server --port 8080 --reverse
 chisel client <local_host>:8080 R:<local_port>:localhost:<remote_port>
 ```
 
+### Ligolo
+``` enter into ligolo on kali after starting tunnel, everything the agent recieves on 1234 goes to kali 4444 port:
+listener_add --addr 0.0.0.0:1234 --to 127.0.0.1:4444
+```
+
 ## Tunneling
 
 ### Ligolo
