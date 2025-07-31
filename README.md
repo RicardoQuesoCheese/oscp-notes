@@ -16,7 +16,7 @@
 - [📃 Password Attacks](docs/14_passwords_attacks.md)
 - [📎 Windows Privilege Escalation](docs/15_windows_privesc.md)
 - [🐧 Linux Privilege Escalation](docs/16_linux_privesc.md)
-- [🚢 Port Redirection and Tunneling](docs/17_port_redirection_tunneling.md)
+- [🚢 Port Redirection and Tunneling](docs/17_port_red_tun.md)
 - [🔭 AD Enumeration](docs/18_ad_enum.md)
 - [⚔️ AD Exploitation](docs/19_ad_exploitation.md)
 - [🏹 AD Lateral Movement](docs/20_ad_lateral_mov.md)
