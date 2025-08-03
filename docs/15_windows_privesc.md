@@ -87,6 +87,8 @@ Get-History
 
 # get history save path
 (Get-PSReadlineOption).HistorySavePath
+
+more C:\Users\<user>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"
 ```
 
 ### Registry
