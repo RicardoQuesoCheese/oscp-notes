@@ -338,6 +338,14 @@ nxc smb <ip> -u 'guest' -p '' --rid-brute
 
 # auto
 enum4linux -a <ip>
+
+## From Windows
+
+net use \\DC01\ipc$ "" /u:""
+
+net use \\DC01\ipc$ "" /u:guest
+
+net use \\DC01\ipc$ "password" /u:guest
 ```
 
 ### RPC - 139, 445
