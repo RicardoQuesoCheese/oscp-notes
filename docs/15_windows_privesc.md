@@ -26,6 +26,7 @@ Get-LocalUser
 net localgroup
 net localgroup <group>
 Get-LocalGroup
+net accounts
 # get members
 Get-LocalGroupMember <group>
 
