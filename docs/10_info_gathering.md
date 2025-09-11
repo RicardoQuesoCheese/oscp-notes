@@ -354,6 +354,7 @@ net use \\DC01\ipc$ "password" /u:guest
 rpcclient -U "" -N <IP> # null session
 rpcclient -U "" <IP> # anon session
 rpcclient -U "guest&" <IP> # public session
+rpcclient -W '' -c querydispinfo -U''%'' '192.168.120.181'
 rpcclient //machine.htb -U domain.local/USERNAME%754d87d42adabcca32bdb34a876cbffb --pw-nt-hash
 rpcclient -U "username%passwd" <IP>
 
